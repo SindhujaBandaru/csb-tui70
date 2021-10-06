@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: white;
+  font-family: "Lexend Deca", "Big Shoulders Display";
+  line-height: 1.3;
+  margin: 11% 13%;
+}
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-size: 1.5rem;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 5.5rem;
+}
+@media screen and (min-width: 62.5rem) {
+  .container {
+    display: flex;
+    width: 100%;
+    height: 85%;
+    flex-direction: row;
+    padding: 0;
+  }
+}
+button {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  border-radius: 2.5rem;
+  color: hsl(31, 77%, 52%);
+  padding: 1rem 2em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 0.25rem 0.125rem;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: solid 2px;
+}
+.button1 {
+  color: hsl(180, 100%, 22%);
+}
+.button2 {
+  color: hsl(179, 100%, 13%);
+}
+.button1:hover {
+  background-color: hsl(180, 100%, 22%);
+}
+.button2:hover {
+  background-color: hsl(179, 100%, 13%);
+}
+.sed {
+  width: 100%;
+  padding: 3.5rem;
+  line-height: 2rem;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+.suv {
+  width: 100%;
+  padding: 3.5rem;
+  line-height: 2rem;
+  background-color: hsl(184, 100%, 22%);
+}
+.lux {
+  width: 100%;
+  padding: 3.5rem;
+  line-height: 2rem;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
